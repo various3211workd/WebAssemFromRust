@@ -1,0 +1,15 @@
+{
+  "name": "assem",
+  "collaborators": [
+    "various3211workd <kd1229568@st.kobedenshi.ac.jp>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "assem_bg.wasm",
+    "assem.js",
+    "assem.d.ts"
+  ],
+  "module": "assem.js",
+  "types": "assem.d.ts",
+  "sideEffects": "false"
+}
