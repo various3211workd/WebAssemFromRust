@@ -13,3 +13,11 @@
   >
 
 ## Usage  
+wasm-pack nodejs npm がインストールされていることが前提。
+
+1. git clone git@github.com:various3211workd/WebAssemFromRust.git  
+2. wasm-pack build  
+3. cd pkg & npm link
+4. cd ../www & npm link WebAssemFromRust  
+5. npm install  
+6. npm run start  

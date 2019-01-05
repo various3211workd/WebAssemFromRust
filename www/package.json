@@ -8,9 +8,12 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "wp-server": "webpack-dev-server",
-    "prosses-server": "node server.js",
-    "start": "start npm run wp-server && start npm run prosses-server"
+    "wp-server-up": "webpack-dev-server",
+    "prosses-server-up": "node server.js",
+    "wp-server-down": "webpack-dev-server",
+    "prosses-server-down": "node server.js",
+    "start": "start npm run wp-server-up && start npm run prosses-server-up",
+    "stop": ""
   },
   "repository": {
     "type": "git",
@@ -32,10 +35,11 @@
     "hello-wasm-pack": "^0.1.0",
     "webpack": "^4.16.3",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.5",
+    "webpack-dev-server": "*",
     "copy-webpack-plugin": "^4.5.2"
   },
   "dependencies": {
+    "mysql": "^2.16.0",
     "socket.io": "^2.1.1"
   }
 }
